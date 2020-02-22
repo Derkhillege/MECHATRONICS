@@ -45,10 +45,16 @@ P_thruster = [pi/2 -0.05 -0.05]; %need to determine where angle is +/-
 % Bow Thruster
 B_thruster = [pi/2 0.05 0];
 
+% MOTOR PID Settings
 % SB MOTOR PID Set Values
 SB_I = 10;
 SB_P = 10;
 SB_D = 10;
+
+% P MOTOR PID Set Values
+P_I = 10;
+P_P = 10;
+P_D = 10;
 
     
 
