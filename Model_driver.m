@@ -40,12 +40,16 @@ Kd_yaw = 0;
 SB_thruster = [0 -0.05 0.05];
 
 % Port Thruster
-P_thruster = [pi/2 -0.05 -0.05]; %need to determine where angle is +/-
+PS_thruster = [pi/2 -0.05 -0.05]; %need to determine where angle is +/-
 
 % Bow Thruster
 B_thruster = [pi/2 0.05 0];
 
 % MOTOR PID Settings
+
+RPS_SB = 1200 % rpm
+RPS_PS = 1200 % rpm
+
 % SB MOTOR PID Set Values
 SB_P = 1.3;
 SB_I = 10;
@@ -57,6 +61,8 @@ PS_P = 1.3;
 PS_I = 10;
 PS_D = 0.02;
 PS_AW = 50
+
+
 
     
 
