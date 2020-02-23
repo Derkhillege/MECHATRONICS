@@ -47,21 +47,23 @@ B_thruster = [pi/2 0.05 0];
 
 % MOTOR PID Settings
 % SB MOTOR PID Set Values
+SB_P = 1.3;
 SB_I = 10;
-SB_P = 10;
-SB_D = 10;
+SB_D = 0.02;
+SB_AW = 10
 
 % P MOTOR PID Set Values
-P_I = 10;
-P_P = 10;
-P_D = 10;
+PS_P = 1.3;
+PS_I = 10;
+PS_D = 0.02;
+PS_AW = 10
 
     
 
 
 %% Simulation
 
-% open([cd,'/wetmodel.slx']);
+open([cd,'/wetmodel.slx']);
 % 
 % tic
 % sim('wetmodel',t_end);
