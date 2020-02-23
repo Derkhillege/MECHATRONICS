@@ -56,7 +56,7 @@ SB_AW = 10
 PS_P = 1.3;
 PS_I = 10;
 PS_D = 0.02;
-PS_AW = 10
+PS_AW = 50
 
     
 
