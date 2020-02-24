@@ -47,8 +47,8 @@ B_thruster = [pi/2 0.05 0];
 
 % MOTOR PID Settings
 
-RPS_SB = 1200 % rpm
-RPS_PS = 1200 % rpm
+% RPS_SB = 1200 % rpm
+% RPS_PS = 1200 % rpm
 
 % SB MOTOR PID Set Values
 SB_P = 1.3;
