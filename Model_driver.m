@@ -74,6 +74,10 @@ b_x = 3.99;     %[kg/s] Damping coefficient in surge
 b_y = 47.62;    %[kg/s] Damping coefficient in sway
 b_psi = 0.22; %[kg*m^2/s] Damping coefficient in yaw
 
+c_x = 0;     %[kg/s] Damping coefficient in surge
+c_y = 0;    %[kg/s] Damping coefficient in sway
+c_psi = 0; %[kg*m^2/s] Damping coefficient in yaw
+
 m = 30;         %[TO BE MEASURED!] Mass of the model ship
 I_zz = 15;      %[TO BE MEASURED!] Mass moment of inertia of the model ship
 
