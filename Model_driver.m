@@ -64,7 +64,18 @@ PS_AW = 50
 
 
 
-    
+%% Mass properties of model
+
+a_x = 2.09;     %[kg] Added mass in surge
+a_y = 17.4;     %[kg] Added mass in y sway 
+a_psi = 0.11; %[kg*m^2] Added inertia in yaw
+
+b_x = 3.99;     %[kg/s] Damping coefficient in surge
+b_y = 47.62;    %[kg/s] Damping coefficient in sway
+b_psi = 0.22; %[kg*m^2/s] Damping coefficient in yaw
+
+m = 30;         %[TO BE MEASURED!] Mass of the model ship
+I_zz = 15;      %[TO BE MEASURED!] Mass moment of inertia of the model ship
 
 
 %% Simulation
