@@ -1,22 +1,7 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                                                                      %%
-%%    Driverfile for ship propulsion system model                       %%
-%%    Version 1.0                                                       %%
-%%    P. de Vos                                                         %%
-%%    Delft University of Technology                                    %%
-%%    3ME / MTT / SDPO / ME                                             %%
-%%                                                                      %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% This program drives the simulation of a ship propulsion sytem.
-% Three processes are distinguished:
-% - Pre-processing for loading the model parameters 
-% - Running the ship propulsion system model (i.e. simulation)
-% - Post-processing is where results are plotted in graphs.
-
-
-%% Pre-processing
-
+% This program drives the simulation. All parameters that are likely to be
+% changed are included in this scipt.
+%%
 clc; clear all; close all;
 
 % load properties and parameters
